@@ -109,3 +109,14 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+#this line for VcxSrv
+export DISPLAY=":0.0"
+export DISPLAY=localhost:0.0
+
+
+## basic aliases
+alias ls='ls --color=auto'
+
+# NOTE: after making changes to file run source .bashrc
+
