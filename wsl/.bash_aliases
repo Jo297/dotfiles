@@ -1,1 +1,7 @@
 alias apple='echo its a fruit'
+alias homedir='cd /mnt/c/Users/../Desktop'
+alias search='apt-cache search'
+alias update='sudo apt-get update'
+alias upgrade='sudo apt-get upgrade'
+alias install='sudo apt-get install'
+alias installonly='sudo apt-get install -only-upgrade'
