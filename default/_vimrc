@@ -7,12 +7,16 @@ filetype off                   " required!
 set rtp+=~/vimfiles/bundle/Vundle.vim
 call vundle#begin()
 
-Bundle 'gmarik/vundle'         " Use the bundle command to select plugins
-Bundle 'scrooloose/nerdtree'   " Bundle automatically searches github for you.
+"Bundle 'gmarik/vundle'         " Use the bundle command to select plugins
+"Bundle 'scrooloose/nerdtree'   " Bundle automatically searches github for you.
 
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()               " required
 filetype plugin indent on       " required!
+
+
 
 "
 
