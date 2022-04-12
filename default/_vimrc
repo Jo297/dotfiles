@@ -59,3 +59,7 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 set shell=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe\ -ExecutionPolicy\ Bypass
+
+" color scheme
+colorscheme default
+
