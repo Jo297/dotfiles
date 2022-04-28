@@ -62,7 +62,5 @@ set shell=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe\ -ExecutionP
 
 " color scheme
 set background=dark
-" colorscheme default
-" colorscheme evening
-colorscheme desert
+colorscheme jodevice_rdarkmod2 
 
