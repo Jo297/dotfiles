@@ -60,7 +60,15 @@ if has('syntax') && has('eval')
 endif
 set shell=C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe\ -ExecutionPolicy\ Bypass
 
+" rules to relocate temporary backup files"
+set backupdir=~/.vim/.backup//
+set directory=~/.vim/.backup//
+
+if has('persistent_undo')
+  set undodir=~/.vim/.undo//  "directory where files will be stored"
+  set undofile                        "turn on the feature"
+endif
+
 " color scheme
 set background=dark
 colorscheme jodevice_rdarkmod2 
-
