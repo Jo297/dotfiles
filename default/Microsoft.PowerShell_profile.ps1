@@ -18,3 +18,12 @@ Import-Module -Name Terminal-Icons
 
 #Alias
 Set-Alias ll ls
+
+#Intro message 
+#also runs in bat scripts outputs
+cls
+echo "~~~ Terminal ~~~"
+$userName = "user"
+echo "hi $userName"
+
+
